@@ -123,7 +123,7 @@
             </div>
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu" data-widget="tree">
-                <li class="header">APKA Tìm xe giá</li>
+                <li class="header">APKA Tim xe gia</li>
                 <li>
                     <a href="vitaikhoan.html">
                         <i class="fa fa-money"></i> <span>Ví tài khoản</span>
@@ -133,8 +133,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="danhbaphongve.html">
-                        <i class="fa fa-address-book"></i> <span>Danh bạ phòng vé</span>
+                    <a href="danhba.html">
+                        <i class="fa fa-address-book"></i> <span>Danh ba phong ve</span>
                         <span class="pull-right-container" hidden>
                             <small class="label pull-right bg-green">new</small>
                         </span>
@@ -142,20 +142,20 @@
                 </li>
                 <li>
                     <a href="tinkhuyenmai.html">
-                        <i class="fa fa-bullhorn"></i> <span>Tin khuyến mãi</span>
+                        <i class="fa fa-bullhorn"></i> <span>Tin khuyen mai</span>
                         <span class="pull-right-container" hidden>
                             <small class="label pull-right bg-green">new</small>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a href="lichsuchuyendi.html">
+                    <a href="lichsu.html">
                         <i class="fa fa-history"></i> <span>Lịch sử chuyến đi</span>
                     </a>
                 </li>
                 <li>
                     <a href="chuyendimienphi.html">
-                        <i class="fa fa-gift"></i> <span>Chuyến đi miễn phí</span>
+                        <i class="fa fa-gift"></i> <span>Chuyến đi miên phí</span>
                     </a>
                 </li>
                 <li>
@@ -170,7 +170,7 @@
                 </li>
                 <li>
                     <a href="phaply.html">
-                        <i class="fa fa-user-secret"></i> <span>Pháp lý</span>
+                        <i class="fa fa-user-secret"></i> <span>Phap ly</span>
                     </a>
                 </li>
                 <li class="header">LABELS</li>
@@ -184,176 +184,134 @@
 
         <!-- Main content -->
         <section class="content">
-      <div class="callout callout-info">
-        <h4>Reminder!</h4>
-        Instructions for how to use modals are available on the
-        <a href="http://getbootstrap.com/javascript/#modals">Bootstrap documentation</a>
-      </div>
+            <!-- Small boxes (Stat box) -->
+            <div class="row" style="">
+                <div class="col-lg-12 col-xs-12">
+                    <form action="#" method="get" class="sidebar-form">
+                        <div class="input-group">
+                            <input type="text" name="q" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- /.search form -->
+                </div>
+                <div class="col-lg-12 col-xs-12">
+                    <div class="box-footer no-padding">
+                        <ul class="nav nav-stacked">
+                            <li style="border-bottom: 1px solid;">
+                                <!--  -->
+                                <a href="index.html">
+                                    <div class="user-block">
+                                        <!-- <img class="img-circle img-bordered-sm" src="dist/img/user1-128x128.jpg"
+                                             alt="user image"> -->
+                                        <span class="username" style="color: #0b97c4">
+                                            Sử dụng các tài khoản khác ngoài tiền mặt như thế nào
+                                        </span>
+                                        <!-- <span class="description"><i class="fa fa-map-marker"></i> Địa chỉ 425 phùng hưng</span>
+                                        <span class="description"><i class="fa fa-phone-square"></i> +8409039240920</span>
+                                     --></div>
+                                    <p style="color: #0b93d5">
 
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="box box-default">
-            <div class="box-header with-border">
-              <h3 class="box-title">Modal Examples</h3>
-            </div>
-            <div class="box-body">
-              <button type="button" data-toggle="modal" data-target="#modal-default">
-                Launch Default Modal
-              </button>
-              <br>
-              <button type="button" data-toggle="modal" data-target="#modal-info">
-                Launch Info Modal
-              </button>
-              <br>
-              <button type="button" data-toggle="modal" data-target="#modal-danger">
-                Launch Danger Modal
-              </button>
-              <br>
-              <button type="button" data-toggle="modal" data-target="#modal-warning">
-                Launch Warning Modal
-              </button>
-              <br>
-              <button type="button" data-toggle="modal" data-target="#modal-success">
-                Launch Success Modal
-              </button>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
+                                    </p>
+                                </a>
+                            </li>
+                            <li style="border-bottom: 1px solid;">
+                                
+                                <a href="index.html">
+                                    <div class="user-block">
+                                        <!-- <img class="img-circle img-bordered-sm" src="dist/img/user1-128x128.jpg"
+                                             alt="user image"> -->
+                                        <span class="username" style="color: #0b97c4">
+                                            Chuyến đi và cước phí
+                                        </span>
+                                        <!-- <span class="description"><i class="fa fa-map-marker"></i> Địa chỉ 425 phùng hưng</span>
+                                        <span class="description"><i class="fa fa-phone-square"></i> +8409039240920</span> -->
+                                    </div>
+                                    <p style="color: #0b93d5">
 
-        <div class="modal fade" id="modal-default">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Default Modal</h4>
-              </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-              </div>
-            </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
+                                    </p>
+                                </a>
+                            </li>
+                            <li style="border-bottom: 1px solid;">
+                                
+                                <a href="index.html">
+                                    <div class="user-block">
+                                        <!-- <img class="img-circle img-bordered-sm" src="dist/img/user1-128x128.jpg"
+                                             alt="user image"> -->
+                                        <span class="username" style="color: #0b97c4">
+                                            Tiêu chí đánh giá chuyến đi
+                                        </span>
+                                       <!--  <span class="description"><i class="fa fa-map-marker"></i> Địa chỉ 425 phùng hưng</span>
+                                        <span class="description"><i class="fa fa-phone-square"></i> +8409039240920</span>
+                                     --></div>
+                                    <p style="color: #0b93d5">
 
-        <div class="modal modal-primary fade" id="modal-primary">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Primary Modal</h4>
-              </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-outline">Save changes</button> -->
-              </div>
-            </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
+                                    </p>
+                                </a>
+                            </li>
+                            <li style="border-bottom: 1px solid;">
+                                
+                                <a href="index.html">
+                                    <div class="user-block">
+                                        <!-- <img class="img-circle img-bordered-sm" src="dist/img/user1-128x128.jpg"
+                                             alt="user image"> -->
+                                        <span class="username" style="color: #0b97c4">
+                                            Cước phí khi hủy chuyến
+                                        </span>
+                                       <!--  <span class="description"><i class="fa fa-map-marker"></i> Địa chỉ 425 phùng hưng</span>
+                                        <span class="description"><i class="fa fa-phone-square"></i> +8409039240920</span>
+                                     --></div>
+                                    <p style="color: #0b93d5">
 
-        <div class="modal modal-info fade" id="modal-info">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Info Modal</h4>
-              </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-outline">Save changes</button> -->
-              </div>
-            </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
+                                    </p>
+                                </a>
+                            </li>
+                            <li style="border-bottom: 1px solid;">
+                                
+                                <a href="index.html">
+                                    <div class="user-block">
+                                        <!-- <img class="img-circle img-bordered-sm" src="dist/img/user1-128x128.jpg"
+                                             alt="user image"> -->
+                                        <span class="username" style="color: #0b97c4">
+                                            Làm sao để đặt xe trước vài ngày
+                                        </span>
+                                       <!--  <span class="description"><i class="fa fa-map-marker"></i> Địa chỉ 425 phùng hưng</span>
+                                        <span class="description"><i class="fa fa-phone-square"></i> +8409039240920</span>
+                                     --></div>
+                                    <p style="color: #0b93d5">
 
-        <div class="modal modal-warning fade" id="modal-warning">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Warning Modal</h4>
-              </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-outline">Save changes</button> -->
-              </div>
-            </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
+                                    </p>
+                                </a>
+                            </li>
 
-        <div class="modal modal-success fade" id="modal-success">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Success Modal</h4>
-              </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-outline">Save changes</button> -->
-              </div>
-            </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
+                            <li style="border-bottom: 1px solid;">
+                                
+                                <a href="index.html">
+                                    <div class="user-block">
+                                        <!-- <img class="img-circle img-bordered-sm" src="dist/img/user1-128x128.jpg"
+                                             alt="user image"> -->
+                                        <span class="username" style="color: #0b97c4">
+                                            Muốn đi chung để chia sẻ tiền
+                                        </span>
+                                       <!--  <span class="description"><i class="fa fa-map-marker"></i> Địa chỉ 425 phùng hưng</span>
+                                        <span class="description"><i class="fa fa-phone-square"></i> +8409039240920</span>
+                                     --></div>
+                                    <p style="color: #0b93d5">
 
-        <div class="modal modal-danger fade" id="modal-danger">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Danger Modal</h4>
-              </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-outline">Save changes</button> -->
-              </div>
+                                    </p>
+                                </a>
+                            </li>
+                            
+                          
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
-    </section>
+        </section>
         <!-- right col -->
     </div>
     <!-- /.row (main row) -->
